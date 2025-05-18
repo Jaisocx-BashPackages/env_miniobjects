@@ -6,8 +6,8 @@
 
 
 ## IMPORTS
-this_script_folder_path="$(dirname "${BASH_SOURCE[0]:-$0}")"
-source "${this_script_folder_path}/env_miniobjects_base.sh"
+this_script_env_miniobj_parser_folder_path="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+source "${this_script_env_miniobj_parser_folder_path}/env_miniobjects_base.sh"
 
 
 getByEnvMiniobject_Name() {
