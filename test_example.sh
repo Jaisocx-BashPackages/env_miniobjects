@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+this_script_folder_path="$(dirname "${BASH_SOURCE[0]:-$0}")"
+
 set -a
-source "./.env.example"
-source "./env_miniobjects_parser.sh"
-source "./env_miniobjects_transformer.sh"
+source "${this_script_folder_path}/.env.example"
+source "${this_script_folder_path}/env_miniobjects_parser.sh"
+source "${this_script_folder_path}/env_miniobjects_transformer.sh"
 
 
 

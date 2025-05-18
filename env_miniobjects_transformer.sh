@@ -6,7 +6,8 @@
 
 
 ## IMPORTS
-source "./env_miniobjects_parser.sh"
+this_script_folder_path="$(dirname "${BASH_SOURCE[0]:-$0}")"
+source "${this_script_folder_path}/env_miniobjects_parser.sh"
 
 
 extractOneField_ByVariablesNames() {
