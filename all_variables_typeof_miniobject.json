@@ -1,0 +1,15 @@
+[
+    {
+        "name": "ConfFile",
+        "type": "JaisocxConfSetting",
+        "value": "conf/http-conf-tests.xml",
+        "description": "The conf file for running tests on the Jaisocx.com Sites Server"
+    },
+    {
+        "name": "ConfFile",
+        "type": "JaisocxConfSetting",
+        "value": "conf/http-conf-dev.xml",
+        "description": "The conf file to publish sites in development"
+    }
+]
+
