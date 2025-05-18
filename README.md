@@ -20,6 +20,12 @@ env_variable_2_typeof_miniobject="name=ConfFile, type=JaisocxConfSetting, value=
 ```
 
 
+## Run example .sh file for testing
+
+```bash
+./test_example.sh
+```
+
 
 ### Obtained a field value, by variable passed by reference and field name.
 
